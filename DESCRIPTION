@@ -1,0 +1,36 @@
+Package: OwnFunction
+Type: Package
+Title: What the Package Does (Title Case)
+Version: 0.1.0
+Authors@R: c(
+    person(
+      "Joffre", "Quintanilla",
+      email = "joffre.quintanilla@espoch.edu.ec",
+      role = c("aut", "cre")
+    ),
+    person(
+    "Carlos", "Mamallacta",
+    email = "carlos.mamallacta@espoch.edu.ec",
+    role = c("aut", "cre")
+    ),
+    person(
+    "Sebastian", "Hinojosa",
+    email = "sebastian.hinojosa@espoch.edu.ec",
+    role = c("aut", "cre")
+    ),
+    person(
+    "Matias", "Garcia",
+    email = "matiass.garcia@espoch.edu.ec",
+    role = c("aut", "cre")
+    ),
+    person(
+    "Freddy", "Tomala",
+    email = "freddy.tomala@espoch.edu.ec",
+    role = c("aut", "cre")
+    )
+  )
+Description: This package implements a custom continuous probability distribution (OwnFunction), including its probability density function (fx) and cumulative distribution function (Fx). It also provides random number generation using the inverse transform method and validates the results through goodness-of-fit tests.
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.3
