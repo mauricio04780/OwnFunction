@@ -2,22 +2,22 @@
 % Please edit documentation in R/down.R
 \name{down}
 \alias{down}
-\title{Probability density function of the OwnFunction distribution}
+\title{Function associated with the OwnFunction distribution}
 \usage{
 down(x)
 }
 \arguments{
-\item{x}{A numeric value or vector where the PDF is evaluated}
+\item{x}{A numeric value or vector where the function is evaluated}
 }
 \value{
-Returns the value of the probability density function at x
+Returns the value of the function at x
 }
 \description{
-Probability density function of the OwnFunction distribution
+Function associated with the OwnFunction distribution
 }
 \details{
-This function computes the probability density function (PDF) associated
-with the custom continuous distribution defined in the package. The function is:
+This function evaluates a piecewise-defined function on the interval (-1, 2).
+It is given by:
 \deqn{
 f(x) = \begin{cases}
 \frac{x^2}{3} & -1 < x < 2 \\
@@ -26,6 +26,6 @@ f(x) = \begin{cases}
 }
 }
 \examples{
-down(0)
-down(c(-2, -0.5, 0, 0.5, 1.5, 2.5))
+down(1)
+down(c(-0.5, 0.5, 1.5))
 }
