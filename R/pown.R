@@ -16,11 +16,10 @@
 #' }
 #'
 #' @examples
-#' pmine(0)
-#' pmine(c(-2, -1, 0, 1, 2, 3))
-#'
+#' pown(0)
+#' pown(c(-1,2,5,3))
 #' @export
-pmine <- function(x){
+pown <- function(x){
   ifelse(x <= -1, 0,
          ifelse(x < 2, (x^3 + 1)/9, 1))
 }
