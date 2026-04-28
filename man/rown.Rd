@@ -24,7 +24,7 @@ To avoid numerical problems with negative values, the cube root is computed as:
 \deqn{\text{sign}(x)\,|x|^{1/3}}
 }
 \examples{
-# Generate 1000 random values
-rown(1000)
+# Generate 100 random values
+rown(100)
 
 }

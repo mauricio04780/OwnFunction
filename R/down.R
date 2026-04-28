@@ -23,8 +23,8 @@
 #' This function is vectorized and returns 0 for values outside the support.
 #'
 #' @examples
-#' down(1)
-#' down(c(-0.5, 0.5, 1.5))
+#' down(-0.08)
+#' down(1.55)
 #'
 #' @export
 down <- function(x){

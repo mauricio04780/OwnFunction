@@ -1,5 +1,5 @@
 #' @title Chi-square Goodness-of-Fit Test for a sample of the OwnFunction Distribution
-#' #'
+#'
 #' @description
 #' Performs a chi-square goodness-of-fit test comparing observed frequencies
 #' from a sample with expected probabilities derived from the distribution:
@@ -33,7 +33,7 @@
 #' Observed frequencies are obtained using the \code{fdth} package.
 #'
 #' @examples
-#' sample <- runif(100, -1, 2)
+#' sample <- rown(100)
 #' ownChisq(sample)
 #'
 #' @importFrom fdth fdt

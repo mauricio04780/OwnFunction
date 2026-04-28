@@ -17,8 +17,8 @@
 #' A numeric vector of length \code{n} with random values following the defined distribution.
 #'
 #' @examples
-#' # Generate 1000 random values
-#' rown(1000)
+#' # Generate 100 random values
+#' rown(100)
 #'
 #' @export
 rown <- function(n){

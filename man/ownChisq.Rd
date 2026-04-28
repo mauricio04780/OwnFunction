@@ -2,8 +2,7 @@
 % Please edit documentation in R/ownChisq.R
 \name{ownChisq}
 \alias{ownChisq}
-\title{Chi-square Goodness-of-Fit Test for a sample of the OwnFunction Distribution
-#'}
+\title{Chi-square Goodness-of-Fit Test for a sample of the OwnFunction Distribution}
 \usage{
 ownChisq(sample)
 }
@@ -42,7 +41,7 @@ Expected probabilities are computed as differences of the CDF over each interval
 Observed frequencies are obtained using the \code{fdth} package.
 }
 \examples{
-sample <- runif(100, -1, 2)
+sample <- rown(100)
 ownChisq(sample)
 
 }
