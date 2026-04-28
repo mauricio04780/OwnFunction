@@ -30,7 +30,7 @@ Authors@R: c(
     )
   )
 Maintainer: Joffre Quintanilla <joffre.quintanilla@espoch.edu.ec>
-Description: This package implements a custom continuous probability distribution (OwnFunction), including its probability density function (\eqn{f(x)}) and cumulative distribution function (\eqn{F(x)}). It also provides pseudo-random number generation using the inverse transform method and validates the results through chi-square goodness-of-fit test.
+Description: This package implements a custom continuous probability distribution (OwnFunction), including its probability density function and cumulative distribution function. It also provides pseudo-random number generation using the inverse transform method and validates the results through chi-square goodness-of-fit test.
 License: GPL-2
 Encoding: UTF-8
 LazyData: true
