@@ -2,18 +2,18 @@
 % Please edit documentation in R/rown.R
 \name{rown}
 \alias{rown}
-\title{Random Generator using Inverse Method}
+\title{Random pseudo-numbers generator from the OwnFunction distribution}
 \usage{
 rown(n)
 }
 \arguments{
-\item{n}{Integer. Number of random values to generate.}
+\item{n}{Integer. Length of the pseudo-random vector to be generated}
 }
 \value{
 A numeric vector of length \code{n} with random values following the defined distribution.
 }
 \description{
-Generates random numbers from a continuous distribution using the inverse transform method.
+Generates pseudo-random numbers from a continuous distribution using the inverse transform method.
 }
 \details{
 This function uses the inverse of the cumulative distribution function (CDF):

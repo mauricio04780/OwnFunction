@@ -2,30 +2,36 @@
 % Please edit documentation in R/down.R
 \name{down}
 \alias{down}
-\title{Function associated with the OwnFunction distribution}
+\title{Probability Density Function of the OwnFunction Distribution}
 \usage{
 down(x)
 }
 \arguments{
-\item{x}{A numeric value or vector where the function is evaluated}
+\item{x}{A numeric value or vector where the density function is evaluated.}
 }
 \value{
-Returns the value of the function at x
+A numeric vector with the corresponding density values.
 }
 \description{
-Function associated with the OwnFunction distribution
+Evaluates the probability density function (PDF) of the OwnFunction
+continuous distribution at given values of \code{x}.
 }
 \details{
-This function evaluates a piecewise-defined function on the interval (-1, 2).
-It is given by:
+The OwnFunction distribution is defined on the interval (-1, 2) with
+probability density function:
+
 \deqn{
-f(x) = \begin{cases}
-\frac{x^2}{3} & -1 < x < 2 \\
-0 & \text{otherwise}
+f(x) =
+\begin{cases}
+\frac{x^2}{3}, & -1 < x < 2 \\
+0, & \text{otherwise}
 \end{cases}
 }
+
+This function is vectorized and returns 0 for values outside the support.
 }
 \examples{
 down(1)
 down(c(-0.5, 0.5, 1.5))
+
 }

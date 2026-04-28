@@ -1,6 +1,6 @@
 Package: OwnFunction
 Type: Package
-Title: What the Package Does (Title Case)
+Title: Simulation and Testing for an OwnFunction Distribution
 Version: 0.1.0
 Authors@R: c(
     person(
@@ -29,8 +29,10 @@ Authors@R: c(
     role = c("aut")
     )
   )
-Description: This package implements a custom continuous probability distribution (OwnFunction), including its probability density function (fx) and cumulative distribution function (Fx). It also provides random number generation using the inverse transform method and validates the results through goodness-of-fit tests.
+Description: This package implements a custom continuous probability distribution (OwnFunction), including its probability density function (fx) and cumulative distribution function (Fx). It also provides random number generation using the inverse transform method and validates the results through chi-square goodness-of-fit test.
 License: GPL-2
 Encoding: UTF-8
 LazyData: true
+Imports:
+    fdth
 RoxygenNote: 7.3.3

@@ -1,10 +1,9 @@
-#'
-#' @title Random Generator using Inverse Method
+#' @title Random pseudo-numbers generator from the OwnFunction distribution
 #'
 #' @description
-#' Generates random numbers from a continuous distribution using the inverse transform method.
+#' Generates pseudo-random numbers from a continuous distribution using the inverse transform method.
 #'
-#' @param n Integer. Number of random values to generate.
+#' @param n Integer. Length of the pseudo-random vector to be generated
 #'
 #' @details
 #' This function uses the inverse of the cumulative distribution function (CDF):
