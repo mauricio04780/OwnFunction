@@ -24,13 +24,9 @@
 #' }
 #'
 #' @details
-#' The CDF is:
-#' \deqn{
-#' F(x) = \frac{x^3}{9} + \frac{1}{9}
-#' }
-#'
+#' This function contrast the hypotheses \eqn{H_0: \pi = \hat{\pi}} Vs. \eqn{H_1: \pi \neq \hat{\pi}}.
 #' Expected probabilities are computed as differences of the CDF over each interval.
-#' Observed frequencies are obtained using the \code{fdth} package.
+#' Observed frequencies in the sample are obtained using the \code{fdth} package.
 #'
 #' @examples
 #' sample <- rown(100)
